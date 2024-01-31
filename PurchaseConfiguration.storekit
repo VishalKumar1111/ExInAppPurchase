@@ -1,0 +1,81 @@
+{
+  "identifier" : "C41D8B80",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1",
+      "familyShareable" : false,
+      "internalID" : "DAFFA156",
+      "localizations" : [
+        {
+          "description" : "Purachse 100 gems ",
+          "displayName" : "Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.Rlogixx.ExInAppPurchase.gems",
+      "referenceName" : "Burger",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5",
+      "familyShareable" : false,
+      "internalID" : "C4317FB6",
+      "localizations" : [
+        {
+          "description" : "All Time subscribtion for gems",
+          "displayName" : "Premium",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.Rlogixx.ExInAppPurchase.premium",
+      "referenceName" : "NoAdsPremium",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "459C02A8",
+      "localizations" : [
+
+      ],
+      "name" : "Monthly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5767F2DF",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Enjoy All premium content MonthlySubscription",
+              "displayName" : "MonthlySubscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.Rlogixx.ExInAppPurchase.Monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "MonthlySubsciption",
+          "subscriptionGroupID" : "459C02A8",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
